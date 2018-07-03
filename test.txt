@@ -1,1 +1,2 @@
 "Andrea Domiter/adomiter"  
+"Git is pretty cool" 
