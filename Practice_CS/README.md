@@ -1,7 +1,7 @@
-#Assignment 1 
-Author:
-Date Last Modified: 
+# Assignment 1 
+Author: Andrea Domiter 
+Date Last Modified: July 8, 2018
 Python Version 3.7.0
 ## Programs
-Hello World 
+* Hello World 
 TO RUN: python hello.py 
