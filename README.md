@@ -1,7 +1,7 @@
 # Assignment 1 
 Author: Andrea Domiter
 
-Date Last Modified: July 8, 2018
+Date Last Modified: July 9, 2018
 
 Python Version 3.7.0
 ## Programs
@@ -16,3 +16,7 @@ Converter: Converts temperature from Farhrenheit to Celsius
 Unit Converter: Converts weight from kilograms to pounds
 
 *TO RUN: unit_converter.py
+
+Slope: Outputs a total sum of numbers entered by the user
+
+*TO RUN: slope.py
