@@ -20,3 +20,7 @@ Unit Converter: Converts weight from kilograms to pounds
 Slope: Outputs a total sum of numbers entered by the user
 
 *TO RUN: slope.py
+
+Fibonacci Sequence: Computes the nth Fibonacci number where n is a value input by the user 
+
+*TO RUN: fibonacci_seq.py
