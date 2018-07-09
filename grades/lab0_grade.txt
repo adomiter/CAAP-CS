@@ -10,12 +10,13 @@ Task 6: 0 points
 	--> no record of this in tasks.txt
 Task 7: 5 points
 Task 8: 5 points
-Task 9: 0 points
+Task 9: 3 points
 	--> mistake.txt file was to be removed before pushing, using "git rm <filename>" and commiting again.
-Task 10: 0 points
-	--> No record of this ever being done
+	--> We were looking for "git rm <filename>" and then commiting again.
+Task 10: 8 points
+	--> This works well, but lookup "git revert" which actually does specifically this. 
 Task 11: 2 points
-Total: 39/60
+Total: 49/60
 
 Try to better separate the answers in future files. E.g. putting "Task x:" before each answer and adding a line in between answers.
 
