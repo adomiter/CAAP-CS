@@ -1,0 +1,22 @@
+Task 1: 10 points
+Task 2: 4 points
+	--> test.txt, tasks.txt, and readme.txt should all be within lab0 directory
+Task 3: 3 points
+	--> Didn't rename test.txt to readme.txt within lab0.
+	--> Didn't add the line "Git is pretty cool" to the readme.txt file after the line "CAAP -Introduction to Software Development​."
+Task 4:	5 points
+Task 5:	5 points
+Task 6: 0 points
+	--> no record of this in tasks.txt
+Task 7: 5 points
+Task 8: 5 points
+Task 9: 0 points
+	--> mistake.txt file was to be removed before pushing, using "git rm <filename>" and commiting again.
+Task 10: 0 points
+	--> No record of this ever being done
+Task 11: 2 points
+Total: 39/60
+
+Try to better separate the answers in future files. E.g. putting "Task x:" before each answer and adding a line in between answers.
+
+Come to office hours, so we can go over this lab.
