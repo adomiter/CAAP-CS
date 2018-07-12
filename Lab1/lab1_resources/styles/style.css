@@ -3,10 +3,20 @@
 /* Last edit: 2/18/2018 8:00 PM */
 /* Last validated error free: 2/18/2018 9:27 PM */
 
+body {
+    background-color: tan;
+    text-align: center
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 150px;
+    background-color: white;
+}
 
 
 /* Cite code */
 
-body {
-    text-align: center;
-}
