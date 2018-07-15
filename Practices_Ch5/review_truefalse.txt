@@ -1,0 +1,4 @@
+1. A Python string literal is always enclosed in double quotes. TRUE
+2. The last character of a string s is at position len(s)-1. TRUE
+3. A string always contains a single line of text. FALSE
+4. In Python "4" + "5" is "45". TRUE
