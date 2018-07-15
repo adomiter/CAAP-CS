@@ -1,1 +1,10 @@
-"git commit --amend" 
+Task 6: I used git commit -ammend to change Adding Task 8 to Adding Task 6.
+
+Task 7: I located the commit by first cloning the repository on my machine using 'git clone https://github.com/junegunn/fzf'. Then, I found the exact commit where the author added a --no-mouse option to the fzf command using this command: 'git log --all --grep='--no-mouse'' which I found on this website: https://stackoverflow.com/questions/7124914/how-to-search-a-git-repository-by-commit-message. The commit SHA is commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168 and the commit message is Add --no-mouse option to replace FZF_MOUSE_ENABLED.  
+
+Task 8: I used the command "git diff [first-branch]...[second-branch]" to list version history for the file. This was found using the website: https://services.github.com/on-demand/downloads/github-git-cheat-sheet/.
+
+Task 9: To remove the file from your repository, I used git rm <filename>
+
+
+Task 10: I used git cherry-pick to create a new commit with the opposite changes from those commits. I used the command:  git revert HASHCODE. I originally used git cherry-pick master ff49c3e...master e0a9628 from the website: https://git-scm.com/docs/git-cherry-pick.
