@@ -1,10 +1,11 @@
 # Assignment 1 
 Author: Andrea Domiter
 
-Date Last Modified: July 9, 2018
+Date Last Modified: July 15, 2018
 
 Python Version 3.7.0
 ## Programs
+
 Hello World: Outputs hello and a summary of the user's info and interests
 
 *TO RUN: python hello.py 
@@ -24,3 +25,7 @@ Slope: Outputs a total sum of numbers entered by the user
 Fibonacci Sequence: Computes the nth Fibonacci number where n is a value input by the user 
 
 *TO RUN: fibonacci_seq.py
+
+Change: Calculates the minimum number of coins required to give a user change
+
+*TO RUN: cash.py
