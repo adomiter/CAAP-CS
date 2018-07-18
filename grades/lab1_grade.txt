@@ -1,0 +1,41 @@
+Lab 1
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes
+  Correct use           3/3
+  Used all              3/3
+  Balanced amount       3/3 
+
+Semantic markup
+  Well structured hierarchies    20/20
+
+Correct use of directories/files
+  Links                 1/5
+  In docs directory     3/5
+  Git sites works       10/10
+
+Validation
+  Both pages and stylesheets  12/20
+
+Design/CSS
+  Dynamic screen size    5/5
+  Efficient use of CSS on multiple pages     10/10
+  Professional design in both pages  5/5
+  
+
+Code style
+  format         3/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  3/3 (* problems are factored into sensible subproblems *)
+  efficiency     0/2 (* blatant inefficiencies are avoided *)
+
+_total-score_  86/100
+
+graded by Jose Reyes
+
+Comments:
+- All your links are absolute to your local computer and not relative to the directory, so none of them work when used on any other computer.
+- You didn't seem to have validated any of your code with the sites provided.
+- for the back button, you simply needed a link to your main page with <a>, the script works, but if the last page wasn't your main page, it can take them anywhere.
+- You have to copy everythin to the docs directory for the site to works, because the links are relative. Next time, check online, see if it's working as you intend before you are finished.
+    -Try it: https://adomiter.github.io/CAAP-CS/

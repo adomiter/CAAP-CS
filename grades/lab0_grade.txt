@@ -6,8 +6,9 @@ Task 3: 3 points
 	--> Didn't add the line "Git is pretty cool" to the readme.txt file after the line "CAAP -Introduction to Software Development​."
 Task 4:	5 points
 Task 5:	5 points
-Task 6: 0 points
+Task 6: 4 points
 	--> no record of this in tasks.txt
+	--> fixed
 Task 7: 5 points
 Task 8: 5 points
 Task 9: 3 points
@@ -16,7 +17,7 @@ Task 9: 3 points
 Task 10: 8 points
 	--> This works well, but lookup "git revert" which actually does specifically this. 
 Task 11: 2 points
-Total: 49/60
+Total: 53/60
 
 Try to better separate the answers in future files. E.g. putting "Task x:" before each answer and adding a line in between answers.
 
