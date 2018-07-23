@@ -5,13 +5,19 @@ from random import randint
 # in this case, it has a list of phrases to be displayed
 # randomly, and returns the string 'died' to let the engine know.
 class Death(object):
-	quips = ["You died.  You kinda suck at this.",
-			"Your mom would be proud...",
-			"Such a loser.",
-			"I have a small puppy that's better at this.",
+	quips = ["Unfortunately, you died."
+			"Try again.",
+			"Wow, I didn't know someone could be so bad at this.",
+			"You dead",
 			"Better luck next time."
-			# raise ValueError ('todo')
-			]
+            ]
+
 	def enter(self):
 		print (Death.quips[randint(0, len(self.quips)- 1)])
 		return 'died'
+
+
+def test_death():
+    test_death = Death()
+
+test_death()
