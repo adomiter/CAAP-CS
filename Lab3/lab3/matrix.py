@@ -11,17 +11,19 @@ def make_matrix(r, c):
 # takes two matrices and multiplies them returnin the resulting matrix
 def matrixmult(a,b):
     if len(a[0]) == len(b):
-	product = make_matrix(len(a), len(b[0]))
-	for i in range(len(product)):
-	    for j in range(len(product[0])):
-	        temp_variable = 0
-		for n in range(len(b)):
-		    result[i][j] += float(a[i][n]) * float(b[n][j])
+        mult = make_matrix(len(a), len(b[0]))
+        for i in range(len(mult)):
+	        for j in range(len(mult[0])):
+	            temp_variable = 0
+            for n in range(len(b)):
+		        result[i][j] += float(a[i][n]) * float(b[n][j])
 	return result
     else:
 	return []
-    
+# because the make_matrix function outputs a matrix with zeros the mult. will be 0 for all values
+#tried to hardcode the function and multiply it that way
 #This function was taken from this website: https://www.pythoncentral.io/multiply-matrices-python/
+#I received help from another student who explained the function to me
 
 # prints the given matrix, mostly for testing purposes
 
@@ -44,5 +46,26 @@ def markov_simulation(initial_matrix, transition_matrix, simulation_number):
     return float(value)/simulation_number
     #received help from other students
     #runs a markov simulation
+    
+
+#tried hardcoding the function
+#init_matrix = [
+#        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ #       ]
+
+#transit_matrix = [
+#       [0, 1/6, 1/6, 1/6, 1/6, 1/3, 0, 0, 0, 0, 0, 0],
+#      [0, 0, 1/6, 1/6, 1/6, 1/3, 0, 0, 0, 0, 1/6, 0],
+#     [0, 0, 0, 1/6, 1/6, 1/3, 1/6, 0, 0, 0, 1/6, 0],
+#        [0, 0, 0, 0, 1/6, 1/6, 1/6, 1/6, 1/6, 0, 1/6, 0],
+#        [0, 1/6, 0, 0, 0, 1/6, 1/6, 1/6, 1/6, 0, 1/6, 0],
+#        [0, 1/6, 0, 0, 0, 0, 1/6, 1/6, 1/6, 1/6, 1/6, 0],
+#        [0, 1/6, 0, 0, 1/6, 0, 0, 1/6, 1/6, 1/6, 1/6, 0],
+#        [0, 1/6, 0, 0, 1/6, 0, 0, 0, 1/6, 1/6, 1/6, 1/6],
+#        [0, 1/6, 0, 0, 1/6, 0, 0, 0, 0, 1/6, 1/6, 1/3],
+#        [0, 0, 0, 0, 1/6, 0, 0, 0, 0, 0, 1/6, 2/3],
+#        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+#        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+#    ]
     
     
