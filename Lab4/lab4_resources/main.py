@@ -220,27 +220,27 @@ pallet_8 = ["#F0F0F0", "#8A360F", "#000000"]
 pixels_8 = [[0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
 pixels_8.append([0,0,0,2,2,1,1,1,1,2,2,2,2,2,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0])
 pixels_8.append([0,0,2,1,1,1,1,1,1,1,1,1,1,1,2,0,0,0,0,0,0,0,0,2,1,2,0,0,0,0])
-pixels_8.append([0,0,2,1,1,1,1,1,1,1,1,1,1,1,2,0,0,0,0,0,0,0,0,2,1,2,0,0,0,0])
+pixels_8.append([0,2,1,1,1,1,1,1,1,1,1,2,1,1,1,2,0,0,0,0,0,0,0,0,2,1,2,0,0,0])
+pixels_8.append([2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0,0])
+pixels_8.append([2,1,0,1,1,1,1,1,1,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0])
+pixels_8.append([2,1,2,1,1,1,1,0,2,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0])
 
 
 # This function takes a pallet and pixel list (matrix) to draw the picture
 # You are to write this function
-def draw(): 
-    for i in pixels_2:
+def draw(pallet, pixel): 
+    for i in pixel:
         for j in i:
-            myPen.color(pallet_2[j])
+            myPen.color(pallet[j])
             box(boxSize)
-            myPen.penup()
-            myPen.pendown() 
-            myPen.penup()
             myPen.forward(boxSize)
-            if j == 1:
-                myPen.penup()
-                myPen.forward(10)
-                myPen.setheading(90)             
-                myPen.forward(10)
-                myPen.setheading(270) 
-draw()   
+            myPen.penup()
+        myPen.setheading(180)
+        myPen.forward(len(i)*boxSize)
+        myPen.setheading(270)
+        myPen.forward(boxSize)
+        myPen.setheading(0)
+  
     
 	
 
@@ -248,7 +248,13 @@ draw()
 def main():
 	draw(pallet_1, pixels_1)
 	draw(pallet_2, pixels_2)
+    
+    #draw(pallet_4, pixels_4)
+    #draw(pallet_5, pixels_5)
+    #draw(pallet_6, pixels_6)
+    #draw(pallet_7, pixels_7)
+    #draw(pallet_8, pixels_8)
 	# You need this to prevent the window from closing after drawing
 	turtle.done()
 
-#main()
+main()
