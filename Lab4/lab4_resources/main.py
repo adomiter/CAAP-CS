@@ -106,7 +106,7 @@ pixels_2.append([1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1])
 pixels_2.append([0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0])
 
 #PacMan
-pallet_3 = ["#FAFAFA" , "#DF0101", "#0000FF"]
+pallet_3 = ["#FAFAFA" , "#0000FF", "#FE9A2E"]
 pixels_3 = [[0,0,0,0,0,1,1,1,1,1,1,0,0,0,0]]
 pixels_3.append([0,0,0,1,1,1,1,1,1,1,1,1,0,0])
 pixels_3.append([0,0,1,1,0,0,1,1,1,1,0,0,1,0])
@@ -122,8 +122,8 @@ pixels_3.append([1,1,1,1,1,1,1,1,1,1,1,1,1,1])
 pixels_3.append([1,1,0,1,1,1,0,0,1,1,1,0,1,1])
 pixels_3.append([1,0,0,0,1,1,0,0,1,1,0,0,0,1])
 
-#Purple Monster
-pallet_4 = ["#FAFAFA" , "#8A2BE2"]
+#Red Monster
+pallet_4 = ["#000000" , "#DF0101"]
 pixels_4 = [[0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0]]
 pixels_4.append([0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0])
 pixels_4.append([0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0])
@@ -141,7 +141,7 @@ pixels_4.append([0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0])
 pixels_4.append([0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0])
 
 #3 Mushroom
-pallet_5 = ["#FAFAFA" , "#000000", "#DF0101"]
+pallet_5 = ["#FAFAFA" , "#FFFF00", "#8A2BE2"]
 pixels_5 = [[0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0]]
 pixels_5.append([0,0,0,1,1,2,2,2,2,0,0,1,1,0,0,0])
 pixels_5.append([0,0,1,0,0,2,2,2,2,0,0,0,0,1,0,0])
@@ -162,7 +162,7 @@ pixels_5.append([0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0])
 
 
 #4 Smiley Face
-pallet_6 = ["#000000" , "#FFD700", "#F0F0F0", "#EE9A00", "#FFC0CB"]
+pallet_6 = ["#000000" , "#fffacd", "#F0F0F0", "#CD5C5C", "#9370db"]
 pixels_6 =     [[2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2]]
 pixels_6.append([2,2,2,2,2,2,2,2,2,2,0,0,0,1,1,1,1,1,0,0,0,2,2,2,2,2,2,2,2,2,2])
 pixels_6.append([2,2,2,2,2,2,2,2,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,2,2,2,2,2,2,2,2])
@@ -194,7 +194,7 @@ pixels_6.append([2,2,2,2,2,2,2,0,0,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,2,2,2,2,2,2,2])
 pixels_6.append([2,2,2,2,2,2,2,2,2,0,0,0,1,1,1,1,1,1,1,0,0,0,2,2,2,2,2,2,2,2,2])
 pixels_6.append([2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2])
 
-# Panda
+# Panda: https://cdn.shopify.com/s/files/1/0822/1983/articles/panda-pixel-art-pixel-art-pixel-8bit-panda_1024x1024.png?v=1501225181
 pallet_7 = ["#000000", "#F0F0F0", "#B7B7B7"]
 pixels_7 = [[2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2]]
 pixels_7.append([2,2,2,2,2,2,0,0,0,0,2,2,2,2,0,0,2])
@@ -215,7 +215,7 @@ pixels_7.append([2,2,2,0,0,2,0,0,0,0,2,2,0,0,0,0,2])
 pixels_7.append([2,2,2,2,2,2,2,0,0,0,0,2,0,0,0,2,2])
 pixels_7.append([2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2])
 
-#Dog
+#Dog: https://www.pinterest.com/pin/390616967665644982/
 pallet_8 = ["#F0F0F0", "#8A360F", "#000000"]
 pixels_8 = [[0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
 pixels_8.append([0,0,0,2,2,1,1,1,1,2,2,2,2,2,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0])
@@ -224,6 +224,25 @@ pixels_8.append([0,2,1,1,1,1,1,1,1,1,1,2,1,1,1,2,0,0,0,0,0,0,0,0,2,1,2,0,0,0])
 pixels_8.append([2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0,0])
 pixels_8.append([2,1,0,1,1,1,1,1,1,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0])
 pixels_8.append([2,1,2,1,1,1,1,0,2,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0])
+pixels_8.append([2,1,2,1,1,1,1,2,2,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,0,2,1,2,0,0])
+pixels_8.append([0,2,1,1,1,1,1,2,2,1,1,2,2,1,1,1,1,2,0,0,0,0,0,0,2,1,1,2,0,0])
+pixels_8.append([0,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,0,0,0,2,2,2,2,2,2,1,2,0,0])
+pixels_8.append([2,0,2,2,1,1,1,1,1,1,1,2,1,1,1,2,0,0,2,2,1,1,1,1,1,1,2,0,0,0])
+pixels_8.append([2,2,2,2,1,1,1,1,1,2,2,2,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,2,0,0])
+pixels_8.append([2,1,1,1,1,1,1,1,2,1,1,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,0,0])
+pixels_8.append([0,2,2,1,1,1,2,2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0])
+pixels_8.append([0,0,0,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0])
+pixels_8.append([0,0,0,0,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0])
+pixels_8.append([0,0,0,0,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2])
+pixels_8.append([0,0,0,0,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2])
+pixels_8.append([0,0,0,0,0,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,2])
+pixels_8.append([0,0,0,0,0,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,0,0,2,1,1,2])
+pixels_8.append([0,0,0,0,0,0,0,2,1,2,1,1,2,1,1,1,1,2,2,2,1,1,2,0,0,0,2,1,1,2])
+pixels_8.append([0,0,0,0,0,0,2,1,1,2,2,2,2,1,1,1,2,0,0,2,2,2,2,0,0,2,1,1,1,2])
+pixels_8.append([0,0,0,0,0,0,2,1,1,2,0,0,2,1,1,1,2,0,0,0,0,0,0,0,0,2,2,2,2,0])
+pixels_8.append([0,0,0,0,0,2,1,1,1,2,0,0,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+pixels_8.append([0,0,0,0,0,2,2,2,2,0,0,2,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+pixels_8.append([0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 
 
 # This function takes a pallet and pixel list (matrix) to draw the picture
@@ -246,15 +265,38 @@ def draw(pallet, pixel):
 
 # Should give the user a list of the possible drawing pieces you have and ask which one to draw
 def main():
-	draw(pallet_1, pixels_1)
-	draw(pallet_2, pixels_2)
+    print("This is a list of drawing pieces you can choose from:")
+    print("1. Banana")
+    print("2. Mario")
+    print("3. PacMan Ghost")
+    print("4. Red Monster")
+    print("5. Mushroom")
+    print("6. Smiley Face")
+    print("7. Panda")
+    print("8. Dog")
+    num= int(input("Which one would you like to draw?"))
+    if num==1:
+        draw(pallet_1, pixels_1)
+    elif num==2:
+        draw(pallet_2, pixels_2)
+    elif num==3:
+        draw(pallet_3, pixels_3)
+    elif num==4:
+        draw(pallet_4, pixels_4)
+    elif num==5:
+        draw(pallet_5, pixels_5)
+    elif num==6:
+        draw(pallet_6, pixels_6)
+    elif num==7:
+        draw(pallet_7, pixels_7)
+    elif num==8:
+        draw(pallet_8, pixels_8)
+    else:
+        print("This was not one of the choices")
     
-    #draw(pallet_4, pixels_4)
-    #draw(pallet_5, pixels_5)
-    #draw(pallet_6, pixels_6)
-    #draw(pallet_7, pixels_7)
-    #draw(pallet_8, pixels_8)
+	
+    
 	# You need this to prevent the window from closing after drawing
-	turtle.done()
+    turtle.done()
 
 main()
