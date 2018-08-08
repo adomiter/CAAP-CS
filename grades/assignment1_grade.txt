@@ -1,0 +1,14 @@
+Assignment 1 Grade:
+
+1. Hello world - 4/2 pts
+	--> Challenge works: +2 pts
+2. Converter:  6/6 pts
+3. Unit Conversion:  6/6 pts
+4. Slope: 10/10 pts
+5. Fibonacci Sequence: 6/6 pts
+6. Part 2 - Change: 20/20 pts
+7. Part 4 - 10/10 pts 
+8. Readme file: -5 pts
+	--> Readme file doesn't explain functions or how you run your specific program, what version of python you are using, or explanation of what your program does
+
+57/60 Points total
